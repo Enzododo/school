@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Architecture | Enzo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-slate-950 text-slate-100 font-sans antialiased min-h-screen flex flex-col justify-between">
+    
+    <nav class="bg-slate-950/40 backdrop-blur-md sticky top-0 border-b border-slate-800 z-50">
+      <div class="max-w-5xl mx-auto px-4 h-16 flex items-center justify-between">
+        <a href="index.html" class="text-xl font-mono font-bold text-cyan-400">Enzo</a>
+        <div class="flex space-x-6 text-sm font-medium text-slate-400">
+          <a href="index.html" class="hover:text-cyan-400">Overview</a>
+          <a href="architecture.html" class="text-cyan-400 font-semibold">Architecture</a>
+          <a href="stack.html" class="hover:text-cyan-400">Stack</a>
+          <a href="contact.html" class="hover:text-cyan-400">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <main class="flex-grow py-20">
+      <div class="max-w-5xl mx-auto px-4">
+        <div class="mb-12">
+          <h2 class="text-3xl font-bold text-white font-mono">&gt; Project Implementations</h2>
+          <p class="text-slate-400 mt-1">A deep dive into structural data flow pipelines that I've deployed.</p>
+        </div>  
+
+        <div class="grid md:grid-cols-2 gap-8">
+          <div class="bg-slate-900/60 rounded-2xl border border-slate-800/80 overflow-hidden flex flex-col justify-between hover:border-cyan-500/30 transition-all">
+            <div>
+              <div class="p-4 bg-slate-950 border-b border-slate-800/60 font-mono text-xs flex justify-between items-center text-slate-400">
+                <span>DATABASE LAYER &amp; AUTH</span>
+                <span class="text-cyan-400">Active Node</span>
+              </div>
+              <div class="p-6 space-y-3">
+                <h3 class="text-xl font-bold text-white">Stateless JWT Engine &amp; Postgres Schema</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">
+                  Programmed a secure backend architecture using Spring Boot/Laravel to process relational tables within a PostgreSQL environment. Configured automated seed scripts, entity relation maps, and middle interceptor chains to evaluate incoming authorization headers, validating signed crypto-tokens safely.
+                </p>
+              </div>
+            </div>
+            <div class="p-6 pt-0">
+              <div class="flex flex-wrap gap-2">
+                <span class="text-xs bg-slate-950 text-cyan-400 border border-slate-800 px-2.5 py-1 rounded-md font-mono">PostgreSQL</span>
+                <span class="text-xs bg-slate-950 text-cyan-400 border border-slate-800 px-2.5 py-1 rounded-md font-mono">JWT Security</span>
+                <span class="text-xs bg-slate-950 text-cyan-400 border border-slate-800 px-2.5 py-1 rounded-md font-mono">REST API</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-slate-900/60 rounded-2xl border border-slate-800/80 overflow-hidden flex flex-col justify-between hover:border-cyan-500/40 transition-all">
+            <div>
+              <div class="p-4 bg-slate-950 border-b border-slate-800/60 font-mono text-xs flex justify-between items-center text-slate-400">
+                <span>MOBILE UI ENVIRONMENT</span>
+                <span class="text-cyan-400">Render Pipeline</span>
+              </div>
+              <div class="p-6 space-y-3">
+                <h3 class="text-xl font-bold text-white">API-Fed Flutter Mobile Interface</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">
+                  Built an intuitive client-side mobile layout that hooks directly into the core network server. Leveraged advanced asynchronous dart structures to fetch JSON data blobs, handle active user login state states securely, and render highly responsive UI layout blocks built for fast scrolling.
+                </p>
+              </div>
+            </div>
+            <div class="p-6 pt-0">
+              <div class="flex flex-wrap gap-2">
+                <span class="text-xs bg-slate-950 text-cyan-400 border border-slate-800 px-2.5 py-1 rounded-md font-mono">Flutter / Dart</span>
+                <span class="text-xs bg-slate-950 text-cyan-400 border border-slate-800 px-2.5 py-1 rounded-md font-mono">HTTP Clients</span>
+                <span class="text-xs bg-slate-950 text-cyan-400 border border-slate-800 px-2.5 py-1 rounded-md font-mono">State Management</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Shared Footer -->
+    <footer class="bg-slate-950 text-slate-600 py-8 text-center text-xs font-mono border-t border-slate-900/60">
+      <p>&copy; 2026 Mobile Backend System Architecture. Built with Tailwind CSS.</p>
+    </footer>
+  </body>
+</html>

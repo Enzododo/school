@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stack | Enzo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-slate-950 text-slate-100 font-sans antialiased min-h-screen flex flex-col justify-between">
+    
+    <!-- Shared Navigation -->
+    <nav class="bg-slate-950/40 backdrop-blur-md sticky top-0 border-b border-slate-800 z-50">
+      <div class="max-w-5xl mx-auto px-4 h-16 flex items-center justify-between">
+        <a href="index.html" class="text-xl font-mono font-bold text-cyan-400">Enzo</a>
+        <div class="flex space-x-6 text-sm font-medium text-slate-400">
+          <a href="index.html" class="hover:text-cyan-400">Overview</a>
+          <a href="architecture.html" class="hover:text-cyan-400">Architecture</a>
+          <a href="stack.html" class="text-cyan-400 font-semibold">Stack</a>
+          <a href="contact.html" class="hover:text-cyan-400">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="flex-grow py-20">
+      <div class="max-w-5xl mx-auto px-4">
+        <div class="mb-12">
+          <h2 class="text-3xl font-bold text-white font-mono">&gt; Technical Inventory</h2>
+          <p class="text-slate-400 mt-2">The complete language and runtime stack used within my current school work and hobby modules.</p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-6">
+          <!-- Client Side -->
+          <div class="bg-slate-950 p-6 rounded-2xl border border-slate-800/60">
+            <div class="text-cyan-400 text-xl font-bold mb-2">Client Side</div>
+            <h4 class="text-white font-bold text-sm font-mono mb-4">FLUTTER ENGINE</h4>
+            <ul class="space-y-2 text-xs text-slate-400 font-mono">
+              <li class="flex justify-between"><span>• Widget Tree layouts</span><span class="text-slate-600">Dart</span></li>
+              <li class="flex justify-between"><span>• Asynchronous Http call routing</span><span class="text-slate-600">Dio/Fetch</span></li>
+              <li class="flex justify-between"><span>• Auth state caching</span><span class="text-slate-600">SecureStorage</span></li>
+            </ul>
+          </div>
+
+          <!-- Server Core -->
+          <div class="bg-slate-950 p-6 rounded-2xl border border-slate-800/60">
+            <div class="text-cyan-400 text-xl font-bold mb-2">Server Core</div>
+            <h4 class="text-white font-bold text-sm font-mono mb-4">SPRING/LARAVEL MIDDLEWARE</h4>
+            <ul class="space-y-2 text-xs text-slate-400 font-mono">
+              <li class="flex justify-between"><span>• Secure JWT issuance</span><span class="text-slate-600">Stateless</span></li>
+              <li class="flex justify-between"><span>• Controller request routing</span><span class="text-slate-600">RESTful</span></li>
+              <li class="flex justify-between"><span>• Query filter optimization</span><span class="text-slate-600">ORM / Raw SQL</span></li>
+            </ul>
+          </div>
+
+          <!-- Storage Stack -->
+          <div class="bg-slate-950 p-6 rounded-2xl border border-slate-800/60">
+            <div class="text-cyan-400 text-xl font-bold mb-2">Storage Stack</div>
+            <h4 class="text-white font-bold text-sm font-mono mb-4">POSTGRESQL INSTANCE</h4>
+            <ul class="space-y-2 text-xs text-slate-400 font-mono">
+              <li class="flex justify-between"><span>• Relational Table Design</span><span class="text-slate-600">Data Engineering</span></li>
+              <li class="flex justify-between"><span>• Foreign Key Constraints</span><span class="text-slate-600">Data Integrity</span></li>
+              <li class="flex justify-between"><span>• User Entity Hashing</span><span class="text-slate-600">Crypto Guard</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Shared Footer -->
+    <footer class="bg-slate-950 text-slate-600 py-8 text-center text-xs font-mono border-t border-slate-900/60">
+      <p>&copy; 2026 Mobile Backend System Architecture. Built with Tailwind CSS.</p>
+    </footer>
+  </body>
+</html>

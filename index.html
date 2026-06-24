@@ -3,289 +3,58 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio | Flutter & Backend Engineer</title>
+    <title>Portfolio | Enzo</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="bg-slate-950 text-slate-100 font-sans antialiased scroll-smooth min-h-screen">
-         <nav class="bg-slate-950/40 backdrop-blur-md sticky top-0 border-b border-slate-800">
+  <body class="bg-slate-950 text-slate-100 font-sans antialiased min-h-screen flex flex-col justify-between">
+    
+    <nav class="bg-slate-950/40 backdrop-blur-md sticky top-0 border-b border-slate-800 z-50">
       <div class="max-w-5xl mx-auto px-4 h-16 flex items-center justify-between">
-        <a href="#" class="text-xl font-mono font-bold text-cyan-400">
-          Enzo
-        </a>
+        <a href="index.html" class="text-xl font-mono font-bold text-cyan-400">Enzo</a>
         <div class="flex space-x-6 text-sm font-medium text-slate-400">
-          <a href="#about" class="hover:text-cyan-400 ">Overview</a>
-          <a href="#projects" class="hover:text-cyan-400">Architecture</a>
-          <a href="#stack" class="hover:text-cyan-400">Stack</a>
-          <a href="#contact" class="hover:text-cyan-400">Contact</a>
+          <a href="index.html" class="text-cyan-400 font-semibold">Overview</a>
+          <a href="architecture.html" class="hover:text-cyan-400">Architecture</a>
+          <a href="stack.html" class="hover:text-cyan-400">Stack</a>
+          <a href="contact.html" class="hover:text-cyan-400">Contact</a>
         </div>
       </div>
     </nav>
 
-
-    <section id="about" class="py-20 lg:py-28 bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950">
-      <div class="max-w-5xl mx-auto px-4 grid md:grid-cols-3 gap-10 items-center">
-        <!-- System Blueprint Flowchart Graphics -->
-        <div class="flex justify-center md:col-span-1">
-          <div class="w-full max-w-[240px] bg-slate-900 border border-slate-800 rounded-2xl p-4 font-mono text-[11px] space-y-3 shadow-2xl shadow-cyan-950">
-            <div class="bg-cyan-950/20 text-slate-300 border border-cyan-800 p-2 rounded-xl text-center font-bold">
-              📱 Flutter Client
-            </div>
-            <div class="text-center text-slate-500 font-bold py-0.5 ">
-              ⬇ Bearer Token (JWT)
-            </div>
-            <div class="bg-cyan-950/20 text-slate-300 border border-cyan-800 p-2 rounded-xl text-center font-bold">
-              ⚙️ Spring Boot / Laravel API
-            </div>
-            <div class="text-center text-slate-500 font-bold py-0.5">
-              ⬇ SQL Queries
-            </div>
-            <div class="bg-cyan-950/20 text-slate-300 border border-cyan-800 p-2 rounded-xl text-center font-bold">
-              🐘 PostgreSQL DB
-            </div>
-          </div>
-        </div>
-
-        <div class="space-y-6 md:col-span-2 text-center md:text-left">
-          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-cyan-950/10 text-cyan-400 border border-cyan-800/50">
-            <span class="w-2 h-2 rounded-full bg-cyan-400 animate-ping"></span>
-            Developing cross-platform mobile ecosystem
-          </div>
-          <h1 class="text-4xl sm:text-5xl font-extrabold text-white tracking-tight">
-            Hi, I'm a
-            <span class="text-cyan-400">Sophomore Student</span>
-          </h1>
-          <p class="text-lg text-slate-400 leading-relaxed max-w-xl">
-            I specialize in building modular database-driven backend networks
-            connected to asynchronous mobile clients. My skill set encompasses
-            setting up relational schemas inside **PostgreSQL**, processing core
-            business rules, managing statutory stateless **JWT security
-            models**, and shipping elegant interface layouts across screens
-            using **Flutter**.
-          </p>
-          <div class="flex gap-4 justify-center md:justify-start font-mono text-sm">
-            <a href="#projects" class="bg-cyan-500 text-slate-950 px-5 py-2.5 rounded-xl font-bold hover:bg-cyan-400">
-              projects
-            </a>
-            <a href="#contact" class="border border-slate-800 bg-slate-900/50 px-5 py-2.5 rounded-xl font-medium hover:bg-slate-800 transition-all text-slate-300">
-              contact
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="projects" class="py-20 bg-slate-950 border-t border-slate-700">
-      <div class="max-w-5xl mx-auto px-4">
-        <div class="mb-12">
-          <h2 class="text-3xl font-bold text-white font-mono">
-            &gt; Project Implementations
-          </h2>
-          <p class="text-slate-400 mt-1">
-            A deep dive into structural data flow pipelines that I've deployed.
-          </p>
-        </div>  
-
-        <div class="grid md:grid-cols-2 gap-8">
-          <!-- Project 1: Backend System -->
-          <div class="bg-slate-900/60 rounded-2xl border border-slate-800/80 overflow-hidden flex flex-col justify-between hover:border-cyan-500/30 transition-all">
-            <div>
-              <div class="p-4 bg-slate-950 border-b border-slate-800/60 font-mono text-xs flex justify-between items-center text-slate-400">
-                <span>📦 DATABASE LAYER &amp; AUTH</span>
-                <span class="text-cyan-400">Active Node</span>
-              </div>
-              <div class="p-6 space-y-3">
-                <h3 class="text-xl font-bold text-white">
-                  Stateless JWT Engine &amp; Postgres Schema
-                </h3>
-                <p class="text-slate-400 text-sm leading-relaxed">
-                  Programmed a secure backend architecture using Spring
-                  Boot/Laravel to process relational tables within a PostgreSQL
-                  environment. Configured automated seed scripts, entity
-                  relation maps, and middle interceptor chains to evaluate
-                  incoming authorization headers, validating signed
-                  crypto-tokens safely.
-                </p>
-              </div>
-            </div>
-            <div class="p-6 pt-0">
-              <div class="flex flex-wrap gap-2">
-                <span class="text-xs bg-slate-950 text-cyan-400 border border-slate-800 px-2.5 py-1 rounded-md font-mono">PostgreSQL</span>
-                <span class="text-xs bg-slate-950 text-cyan-400 border border-slate-800 px-2.5 py-1 rounded-md font-mono">JWT Security</span>
-                <span class="text-xs bg-slate-950 text-cyan-400 border border-slate-800 px-2.5 py-1 rounded-md font-mono">REST API</span>
-              </div>
+    <main class="flex-grow flex items-center">
+      <section class="w-full py-20 bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950">
+        <div class="max-w-5xl mx-auto px-4 grid md:grid-cols-3 gap-10 items-center">
+          <div class="flex justify-center md:col-span-1">
+            <div class="w-full max-w-[240px] bg-slate-900 border border-slate-800 rounded-2xl p-4 font-mono text-[11px] space-y-3 shadow-2xl shadow-cyan-950">
+              <div class="bg-cyan-950/20 text-slate-300 border border-cyan-800 p-2 rounded-xl text-center font-bold">Flutter Client</div>
+              <div class="text-center text-slate-500 font-bold py-0.5">Bearer Token (JWT)</div>
+              <div class="bg-cyan-950/20 text-slate-300 border border-cyan-800 p-2 rounded-xl text-center font-bold">Spring Boot / Laravel API</div>
+              <div class="text-center text-slate-500 font-bold py-0.5">SQL Queries</div>
+              <div class="bg-cyan-950/20 text-slate-300 border border-cyan-800 p-2 rounded-xl text-center font-bold">PostgreSQL DB</div>
             </div>
           </div>
 
-          <div class="bg-slate-900/60 rounded-2xl border border-slate-800/80 overflow-hidden flex flex-col justify-between hover:border-cyan-500/40 transition-all">
-            <div>
-              <div class="p-4 bg-slate-950 border-b border-slate-800/60 font-mono text-xs flex justify-between items-center text-slate-400">
-                <span>📱 MOBILE UI ENVIRONMENT</span>
-                <span class="text-cyan-400">Render Pipeline</span>
-              </div>
-              <div class="p-6 space-y-3">
-                <h3 class="text-xl font-bold text-white">
-                  API-Fed Flutter Mobile Interface
-                </h3>
-                <p class="text-slate-400 text-sm leading-relaxed">
-                  Built an intuitive client-side mobile layout that hooks
-                  directly into the core network server. Leveraged advanced
-                  asynchronous dart structures to fetch JSON data blobs, handle
-                  active user login state states securely, and render highly
-                  responsive UI layout blocks built for fast scrolling.
-                </p>
-              </div>
+          <div class="space-y-6 md:col-span-2 text-center md:text-left">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-cyan-950/10 text-cyan-400 border border-cyan-800/50">
+              <span class="w-2 h-2 rounded-full bg-cyan-400 animate-ping"></span>
+              Developing cross-platform mobile ecosystem
             </div>
-            <div class="p-6 pt-0">
-              <div class="flex flex-wrap gap-2">
-                <span class="text-xs bg-slate-950 text-cyan-400 border border-slate-800 px-2.5 py-1 rounded-md font-mono">Flutter / Dart</span>
-                <span class="text-xs bg-slate-950 text-cyan-400 border border-slate-800 px-2.5 py-1 rounded-md font-mono">HTTP Clients</span>
-                <span class="text-xs bg-slate-950 text-cyan-400 border border-slate-800 px-2.5 py-1 rounded-md font-mono">State Management</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="stack" class="py-20 bg-slate-900/30">
-      <div class="max-w-5xl mx-auto px-4">
-        <div class="mb-12">
-          <h2 class="text-3xl font-bold text-white font-mono">
-            &gt; Technical Inventory
-          </h2>
-          <p class="text-slate-400 mt-2">
-            The complete language and runtime stack used within my current
-            school work and hobby modules.
-          </p>
-        </div>
-
-        <div class="grid md:grid-cols-3 gap-6">
-          <!-- Mobile Engine Card -->
-          <div class="bg-slate-950 p-6 rounded-2xl border border-slate-800/60">
-            <div class="text-cyan-400 text-xl font-bold mb-2">
-              📱 Client Side
-            </div>
-            <h4 class="text-white font-bold text-sm font-mono mb-4">
-              FLUTTER ENGINE
-            </h4>
-            <ul class="space-y-2 text-xs text-slate-400 font-mono">
-              <li class="flex justify-between">
-                <span>• Widget Tree layouts</span><span class="text-slate-600">Dart</span>
-              </li>
-              <li class="flex justify-between">
-                <span>• Asynchronous Http call routing</span><span class="text-slate-600">Dio/Fetch</span>
-              </li>
-              <li class="flex justify-between">
-                <span>• Auth state caching</span><span class="text-slate-600">SecureStorage</span>
-              </li>
-            </ul>
-          </div>
-
-          <div class="bg-slate-950 p-6 rounded-2xl border border-slate-800/60">
-            <div class="text-cyan-400 text-xl font-bold mb-2">
-              ⚙️ Server Core
-            </div>
-            <h4 class="text-white font-bold text-sm font-mono mb-4">
-              SPRING/LARAVEL MIDDLEWARE
-            </h4>
-            <ul class="space-y-2 text-xs text-slate-400 font-mono">
-              <li class="flex justify-between">
-                <span>• Secure JWT issuance</span><span class="text-slate-600">Stateless</span>
-              </li>
-              <li class="flex justify-between">
-                <span>• Controller request routing</span><span class="text-slate-600">RESTful</span>
-              </li>
-              <li class="flex justify-between">
-                <span>• Query filter optimization</span><span class="text-slate-600">ORM / Raw SQL</span>
-              </li>
-            </ul>
-          </div>
-
-          <div class="bg-slate-950 p-6 rounded-2xl border border-slate-800/60">
-            <div class="text-cyan-400 text-xl font-bold mb-2">
-              🐘 Storage Stack
-            </div>
-            <h4 class="text-white font-bold text-sm font-mono mb-4">
-              POSTGRESQL INSTANCE
-            </h4>
-            <ul class="space-y-2 text-xs text-slate-400 font-mono">
-              <li class="flex justify-between">
-                <span>• Relational Table Design</span><span class="text-slate-600">Data Engineering</span>
-              </li>
-              <li class="flex justify-between">
-                <span>• Foreign Key Constraints</span><span class="text-slate-600">Data Integrity</span>
-              </li>
-              <li class="flex justify-between">
-                <span>• User Entity Hashing</span><span class="text-slate-600">Crypto Guard</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="py-20 bg-slate-950">
-      <div class="max-w-xl mx-auto px-4" >
-        <div class="text-center mb-8">
-          <h2 class="text-3xl font-bold text-white font-mono">
-            Initialize Connection
-          </h2>
-          <p class="text-slate-400 mt-1">
-            Drop a message or request my public GitHub project configurations.
-          </p>
-        </div>
-
-        <form class="bg-slate-900/40 p-8 rounded-2xl border border-slate-800/80 space-y-5 shadow-xl shadow-cyan-900" onsubmit="event.preventDefault(); alert('Message sent successfully!');">
-          <div class="text-center pb-2 border-b border-slate-800/60">
-            <h3 class="text-xl font-bold text-white">Get in Touch</h3>
-            <p class="text-sm text-slate-400 mt-1">
-              Have a question or want to collaborate on a project?
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-white tracking-tight">
+              Hi, I'm a <span class="text-cyan-400">Sophomore Student</span>
+            </h1>
+            <p class="text-lg text-slate-400 leading-relaxed max-w-xl">
+              I specialize in building modular database-driven backend networks connected to asynchronous mobile clients. My skill set encompasses setting up relational schemas inside PostgreSQL, processing core business rules, managing statutory stateless JWT security models, and shipping elegant interface layouts across screens using Flutter.
             </p>
-          </div>
-
-          <div>
-            <label class="block text-xs font-mono font-bold text-slate-400 uppercase tracking-wide mb-1.5">Your Name</label>
-            <input type="text" placeholder="John Doe" class="w-full bg-slate-950 px-4 py-3 rounded-xl border border-slate-800 text-sm text-white placeholder:text-slate-600 focus:outline-none focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500 transition-all" required />
-          </div>
-
-          <div>
-            <label class="block text-xs font-mono font-bold text-slate-400 uppercase tracking-wide mb-1.5">Email Address</label>
-            <input type="email" placeholder="you@example.com" class="w-full bg-slate-950 px-4 py-3 rounded-xl border border-slate-800 text-sm text-white placeholder:text-slate-600 focus:outline-none focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500 transition-all" required />
-          </div>
-
-          <div>
-            <label class="block text-xs font-mono font-bold text-slate-400 uppercase tracking-wide mb-1.5">Inquiry Type</label>
-            <div class="relative">
-              <select class="w-full bg-slate-950 px-4 py-3 rounded-xl border border-slate-800 text-sm text-slate-300 focus:outline-none focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500 transition-all ">
-                <option>General Collaboration</option>
-                <option>Flutter Mobile App Development</option>
-                <option>Backend &amp; API Engineering</option>
-                <option>Database Management</option>
-              </select>
-              <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-slate-500">
-                <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                  <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-                </svg>
-              </div>
+            <div class="flex gap-4 justify-center md:justify-start font-mono text-sm">
+              <a href="architecture.html" class="bg-cyan-500 text-slate-950 px-5 py-2.5 rounded-xl font-bold hover:bg-cyan-400">Explore Architecture</a>
+              <a href="contact.html" class="border border-slate-800 bg-slate-900/50 px-5 py-2.5 rounded-xl font-medium hover:bg-slate-800 transition-all text-slate-300">Contact Me</a>
             </div>
           </div>
-
-          <div>
-            <label class="block text-xs font-mono font-bold text-slate-400 uppercase tracking-wide mb-1.5">Your Message</label>
-            <textarea rows="4" placeholder="Tell me about your project ideas..." class="w-full bg-slate-950 px-4 py-3 rounded-xl border border-slate-800 text-sm text-white placeholder:text-slate-600 focus:outline-none focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500 transition-all resize-none" required></textarea>
-          </div>
-
-          <button type="submit" class="w-full bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-semibold py-3 rounded-xl transition-all text-sm shadow-lg shadow-cyan-900 active:bg-cyan-700">
-            Send Message
-          </button>
-        </form>
-      </div>
-    </section>
+        </div>
+      </section>
+    </main>
 
     <footer class="bg-slate-950 text-slate-600 py-8 text-center text-xs font-mono border-t border-slate-900/60">
-      <p>
-        &copy; 2026 Mobile Backend System Architecture. Built with Tailwind CSS.
-      </p>
+      <>&copy; 2026 Mobile Backend System Architecture. Built with Tailwind CSS.</p>
     </footer>
   </body>
 </html>
